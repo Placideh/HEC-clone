@@ -19,129 +19,143 @@
 		</div>
 	</header>
 	<nav id="navbar" >
-		<ul class="container">
-			<li>Home</li>
-			<li>User guide for HLIs<select></select></li>
-			<li>HLI Registration<select></select></li>
-			<li>Loan<select></select></li>
-			<li>Contact us</li>
+		<ul class="container-ul">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">User guide for HLIs</a><select></select></li>
+			<li><a href="#">HLI Registration</a><select></select></li>
+			<li><a href="#">Loan</a><select></select></li>
+			<li><a href="#">Contact us</a></li>
 		</ul>
 	</nav>
 	<div class="container">
+			
 		
-	
-	<section id="main">
-			<form action="#">
-				<div>
-				<label for="Gender">Gender</label>
-				<select name="selection" id="selection">
+		<section id="main">
+				<form action="#" class="main">
+				<div class="first-div">	
+					<div class="allDiv1">
+					<label for="Gender">Gender</label>
+					<select name="selection" id="selection">
+						
+						<option value="Male">Male</option>
+						<option value="Female">Female</option>
+						<option value="Other">Other</option>
+					</select>	
+					</div>
+
+					<div class="allDiv2">
+						<label for="District">District</label>
+						<select >
+							<option value="District">Nyarugenge</option>
+							<option value="District">Gasabo</option>
+							<option value="District">Kicukiro</option>
+							<option value="District">Rulindo</option>
+							<option value="District">Musanze</option>
+							<option value="District">Nyagatare</option>
+							<option value="District">Rubavu</option>
+							<option value="District">Rusizi</option>
+						</select>
+					</div>
+
+					<div class="allDiv3">
+						<label for="Sector">Sector</label>
+						<select >
+							<option value="Sector ">Kanombe</option>	
+							<option value="Sector">Nyakabanda</option>
+							<option value="Sector">Rwezamenyo</option>
+							<option value="Sector">Kimisagara</option>
+							<option value="Sector">Nyamirambo</option>
+							<option value="Sector">Gitega</option>
+						</select>
+					</div>
+
+					<div class="allDiv4">
+						<label for="Cell">Cell</label>
+						<select >
+							<option value="Cell">Munanira I</option>
+							<option value="Cell">Munanira II</option>
+							<option value="Cell">Nyakabanda I</option>
+							<option value="Cell">Nyakabanda II</option>
+							<option value="Cell">Kamuhoza</option>
+							<option value="Cell">Katabaro</option>
+						</select>
+					</div>
+
+					<div class="allDiv5">
+						<label for="Village">Village</label>
+						<select>
+							<option value="Village">Nkundumurimbo</option>
+							<option value="Village">Kamwiza</option>
+							<option value="Village">Mahoro</option>
+							<option value="Village">Mucyuranyana</option>
+							<option value="Village">Kajagari</option>
+						</select>
+					</div>
+
+						<label for="Result slip">Result slip/certificate File</label>
+					<div class="allDiv6">
+						
+						<input class="innerInput"type="file" placeholder="Choose File">
+					</div>
+
+						<label for="National ID file">National Id File</label>
+					<div class="allDiv7">
+						
+						<input type="file" placeholder="Choose File ">
+					</div>
+				</div>
+				<div class="second-div" >
 					
-					<option value="Male">Male</option>
-					<option value="Female">Female</option>
-					<option value="Other">Other</option>
-				</select>	
-				</div>
-				<div>
-					<label for="District">District</label>
-					<select >
-						<option value="District">Nyarugenge</option>
-						<option value="District">Gasabo</option>
-						<option value="District">Kicukiro</option>
-						<option value="District">Rulindo</option>
-						<option value="District">Musanze</option>
-						<option value="District">Nyagatare</option>
-						<option value="District">Rubavu</option>
-						<option value="District">Rusizi</option>
-					</select>
-				</div>
-				<div>
-					<label for="Sector">Sector</label>
-					<select >
-						<option value="Sector ">Kanombe</option>	
-						<option value="Sector">Nyakabanda</option>
-						<option value="Sector">Rwezamenyo</option>
-						<option value="Sector">Kimisagara</option>
-						<option value="Sector">Nyamirambo</option>
-						<option value="Sector">Gitega</option>
-					</select>
-				</div>
-				<div>
-					<label for="Cell">Cell</label>
-					<select >
-						<option value="Cell">Munanira I</option>
-						<option value="Cell">Munanira II</option>
-						<option value="Cell">Nyakabanda I</option>
-						<option value="Cell">Nyakabanda II</option>
-						<option value="Cell">Kamuhoza</option>
-						<option value="Cell">Katabaro</option>
-					</select>
-				</div>
-				<div>
-					<label for="Village">Village</label>
-					<select>
-						<option value="Village">Nkundumurimbo</option>
-						<option value="Village">Kamwiza</option>
-						<option value="Village">Mahoro</option>
-						<option value="Village">Mucyuranyana</option>
-						<option value="Village">Kajagari</option>
-					</select>
-				</div>
-				<div>
-					<label for="Result slip">Result slip/certificate File</label>
-					<br>
-					<input type="file" placeholder="Choose File">
-				</div>
-				<div>
-					<label for="National ID file">National Id File</label>
-					<br>
-					<input type="file" placeholder="Choose File ">
-				</div>
-				<div>
-					<form action="#">
-						<label for="Father Name">Father Name</label>
-						<input type="text">
-						<label for="Mother Name">Mother Name</label>
-						<input type="text">
-						<label for="Guardian">Guardian</label>
-						<input type="text">
+				
+					<div class="allDiv8">
+						<form action="#">
+							<label for="Father Name">Father Name</label>
+							<input type="text">
+							<label for="Mother Name">Mother Name</label>
+							<input type="text">
+							<label for="Guardian">Guardian</label>
+							<input type="text">
 
-					</form>
-				</div>
-				<div>
-					<label for="Loan Cat">Loan Category</label>
-					<select >
-						<option value="Living">Living</option>
-						<option value="Fees">Fees</option>
-						<option value="Both">Both</option>
+						</form>
+					</div>
+					
+					<div class="allDiv9">
+						<label for="Loan Cat">Loan Category</label>
+						<select >
+							<option value="Living">Living</option>
+							<option value="Fees">Fees</option>
+							<option value="Both">Both</option>
 
-					</select>
+						</select>
 
-				</div>
-				<div>
-						<label for="Combination">Combination</label>
-					<select >
-						<option value="PCB">Physics-Chemistry-Biology</option>
-						<option value="PCM">Physics-Chemistry-Mathematics</option>
-						<option value="MPC">Mathematics-Physics-Computer Science</option>
-						<option value="MPG">Mathematics-Physics-Geography</option>
-						<option value="BCG">Biology-Chemistry-Geography</option>
-						<option value="MCB">Mathematics-Chemistry-Biology</option>
-						<option value="MEC">Mathematics-Economics-Computer Science</option>
-						<option value="MEG">Mathematics-Economics-Geography</option>
-						<option value="HEG">History-Economics-Geography</option>
-						<option value="FEK">French-English-Kinyarwanda</option>
-						<option value="EKK">English-Kiswahili-Kinyarwanda</option>
-					</select>
-				</div>
-				<div>
-					<label for="Year">Completion Year in S6</label>
-					<input type="date">
-				</div>
-
-			</form>
-	</section>
-	<button id="cancel">Cancel</button>
-	<button id="Apply">+ Apply</button>
+					</div>
+					<div class="allDiv10">
+							<label for="Combination">Combination</label>
+						<select >
+							<option value="PCB">Physics-Chemistry-Biology</option>
+							<option value="PCM">Physics-Chemistry-Mathematics</option>
+							<option value="MPC">Mathematics-Physics-Computer Science</option>
+							<option value="MPG">Mathematics-Physics-Geography</option>
+							<option value="BCG">Biology-Chemistry-Geography</option>
+							<option value="MCB">Mathematics-Chemistry-Biology</option>
+							<option value="MEC">Mathematics-Economics-Computer Science</option>
+							<option value="MEG">Mathematics-Economics-Geography</option>
+							<option value="HEG">History-Economics-Geography</option>
+							<option value="FEK">French-English-Kinyarwanda</option>
+							<option value="EKK">English-Kiswahili-Kinyarwanda</option>
+						</select>
+					</div>
+					<div class="allDiv11">
+						<label for="Year">Completion Year in S6</label>
+						<input type="date">
+					</div>
+			</div>
+				</form>
+		</section>
+			<div class="cancel-apply">
+			<button id="cancel">Cancel</button>
+			<button id="apply">+ Apply</button>
+			</div>
 	</div>
 	<footer id="main-footer">
 		<p>Privacy and Policy</p> <p>Copyright &copy;HEC/2019</p>

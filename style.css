@@ -1,5 +1,5 @@
 body{
-background: #f4f4f4;
+background: #fff;
 margin:0;
 font-family: Arial,Helvetica,sans-serif;
 }
@@ -18,6 +18,7 @@ font-family: Arial,Helvetica,sans-serif;
 	top:-45px;
 	padding-left:50px;
 	left:-85px;
+	/*min-height:100%;*/
 }
 #main-header  h3{
 	display: inline;
@@ -44,9 +45,21 @@ font-family: Arial,Helvetica,sans-serif;
 	width:80%;
 	margin:auto;
 }
+.container-ul{
+	margin:auto;
+	width:80%;
+	/*margin-top:30px;*/
+}
 .container{
 	margin:auto;
 	width:80%;
+	margin-top:30px;
+	background: rgb(252,253,254);
+	position:relative;
+}
+a{
+	text-decoration: none;
+	color:#fff;
 }
 #navbar {
 	background: rgb(34,98,128);
@@ -62,6 +75,183 @@ font-family: Arial,Helvetica,sans-serif;
 	padding-top:20px;
 	color:#fff;
 }
+.cancel-apply {
+	position: relative;
+	top:130px;
+	left:50%;
+}
+#cancel {
+	position: relative;
+	border:none;
+	background-color: rgb(134,182,62);
+	color:#fff;
+	height:30px;
+	width:90px;
+	margin-right:0.3rem;
+}
+#apply {
+	position: relative;
+	border:none;
+	background-color: rgb(101,154,89);
+	color:#fff;
+	height:30px;
+	width:90px;
+	
+}
+.main  {
+
+	/*display: flex;
+	justify-content: space-between;
+	flex-direction:column;*/
+	display: grid;
+	grid-template-columns:1fr 1fr;
+	grid-gap:1rem;
+
+}
+.first-div{
+	position:relative;
+
+}
+.second-div {
+	position:relative;
+
+}
+
+.allDiv1 > select{
+	order:1;
+	display:block;
+	width:100%;
+	height:33px;
+	margin-bottom:7px;
+	background:rgb(244,249,252);
+
+}
+.allDiv1 >label{
+	color:rgb(166,196,222);
+}
+
+.allDiv2 > select{
+	order:2;
+	display:block;
+	width:100%;
+	height:33px;
+	margin-bottom:7px;
+	background:rgb(244,249,252);
+
+
+}
+.allDiv2 >label{
+	color:rgb(166,196,222);
+}
+.allDiv3 > select{
+	order:3;
+	display:block;
+	width:100%;
+	height:33px;
+	margin-bottom:10px;
+	background:rgb(244,249,252);
+
+}
+.allDiv3 >label{
+	color:rgb(166,196,222);
+}
+.allDiv4 > select{
+	order:4;
+	display:block;
+	width:100%;
+	height:33px;
+	margin-bottom:5px;
+	background:rgb(244,249,252);
+
+}
+.allDiv4 >label{
+	color:rgb(166,196,222);
+}
+.allDiv5 > select{
+	order:5;
+	display:block;
+	width:100%;
+	height:33px;
+	margin-bottom:10px;
+	background:rgb(244,249,252);
+
+}
+.allDiv5 >label{
+	color:rgb(166,196,222);
+}
+
+.allDiv6 {
+	border:1px solid #ccc;
+	order:6;
+	display:block;
+	width:100%;
+	margin-bottom:10px;
+	height:33px;
+	background:rgb(244,249,252);
+
+}
+.allDiv6 >label{
+	color:rgb(166,196,222);
+}
+.allDiv6 input{
+	margin-left:10px;
+}
+.allDiv7 {
+	border:1px solid #ccc;
+	order:7;
+	display:block;
+	width:100%;
+	margin-bottom:20px;
+	height:33px;
+	background:rgb(244,249,252);
+
+}
+label{
+	
+	color:rgb(166,196,222);
+}
+/*select{
+	background-color:none;
+}*/
+.allDiv7 input{
+	margin-left:10px;
+}
+.allDiv8 > input{
+	order:8;
+	display:block;
+	width:100%;
+	height:25px;
+	background:rgb(244,249,252);
+	margin-bottom:10px;
+}
+.allDiv9 > select{
+	order:9;
+	display:block;
+	width:102%;
+	height:33px;
+	margin-bottom:5px;
+	background:rgb(244,249,252);
+
+
+}
+.allDiv10 > select{
+	order:10;
+	display:block;
+	width:102%;
+	height:33px;
+	margin-bottom:8px;
+	background:rgb(244,249,252);
+
+}
+.allDiv11 > input{
+	order:11;
+	display:block;
+	width:101%;
+	height:32px;
+	margin-bottom:7px;
+	background:rgb(244,249,252);
+}
+
 #main-footer {
 	background: rgb(34,98,128);
 	position: relative;
