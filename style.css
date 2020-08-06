@@ -269,6 +269,38 @@ label{
 	color:#fff;
 	font-size:15px;
 }
+#cancel:hover{
+	opacity:0.9;
+}
+#apply:hover{
+	opacity:0.7;
+}
+#submit:hover{
+	opacity:0.7;
+	background-color:blue;
+	cursor:progress;
+}
+
+.container-ul li a:hover{
+	border-bottom:3px solid #fff;
+	padding-bottom:5px; 
+	cursor: pointer;
+}
+
+/*.container-ul li a:hover {
+	border-bottom:3px solid #fff;
+	padding-bottom:5px; 
+	cursor: pointer;
+	display:inline-block;
+	color:#fff;
+	<p>My Home Is Cool Isn't It?</p>
+	<p>I cn Guide You If You allow!(:</p>
+	<p>To Register It is Just Easy!-_-</p>
+	<p>To Get Rich You Need To Take It :':</p>
+	<p>I Love To Help Just Do IT #0789394104:)</p
+	
+
+}*/
 
 /*Adding @media queries*/
 @media(max-width: 900px) {
