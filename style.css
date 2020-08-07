@@ -378,6 +378,11 @@ label{
 			background-color: rgb(209,232,243);
 			color:rgb(148,201,227);
 		}
+		.login{
+			position: absolute;
+			bottom:-30px;
+			right:-45px;
+		}
 		#navbar {
 			height:120px;
 			width: 100%;
@@ -479,3 +484,45 @@ label{
 		}
 }
 
+@media(max-width: 1024px) {
+		.container2{
+			border-bottom: rgb(134,182,62) solid 3px ;
+			width:80%;
+			margin:auto;
+			display:flex;
+			justify-content: space-between;
+			flex-direction: column;
+			align-items: flex-start;
+			height:120px;
+		}
+		#main-header  h3{
+			display: flex;
+			position: relative;
+			top:-95px;
+			left:20px;
+			padding-left:150px;
+			color:rgb(33,134,184);
+			font-size:14px;
+			width:100%;
+			text-align: center;
+
+			
+		}
+		#submit{
+			position:absolute;
+			right:80px;
+			bottom:53px;
+			font-size:15px;
+			border:none;
+			background-color: rgb(209,232,243);
+			color:rgb(148,201,227);
+		}
+		#navbar li {
+			list-style: none;
+			display: inline;
+			position:relative;
+			padding-left:10px;
+			padding-top:20px;
+			color:#fff;
+		}
+}
